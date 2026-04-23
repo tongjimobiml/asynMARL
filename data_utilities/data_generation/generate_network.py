@@ -1,1 +1,0 @@
-# netgenerate --grid --grid.x-number=10 --grid.y-number=10 --grid.x-length=100 --grid.y-length=100 --output-file=2x2x25.net.xml
