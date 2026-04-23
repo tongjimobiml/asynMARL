@@ -10,7 +10,7 @@ This repository contains the official PyTorch implementation of the paper:
 
 As the number of vehicles grows in urban cities, planning vehicle routes to avoid congestion and decrease commuting time is important. In this paper, we study the shortest path problem (SPP) with multiple source-destination pairs, namely MSD-SPP, to minimize the average travel time of all routing paths. The asynchronous setting in MSD-SPP, i.e., vehicles may not simultaneously complete routing actions, makes it challenging for cooperative route planning among multiple agents and leads to ineffective route planning. To tackle this issue, in this paper, we propose a two-stage framework of inter-region and intra-region route planning by dividing an entire road network into multiple sub-graph regions. Next, the proposed asyn-MARL model allows efficient asynchronous multi-agent learning by three key techniques. First, the model adopts a low-dimensional global state to implicitly represent the high-dimensional joint observations and actions of multi-agents. Second, by a novel trajectory collection mechanism, the model can decrease the redundancy in training trajectories. Additionally, with a novel actor network, the model facilitates the cooperation among vehicles towards the same or close destinations, and a reachability graph can prevent infinite loops in routing paths. On both synthetic and real road networks, the evaluation result demonstrates that asyn-MARL outperforms state-of-the-art planning approaches.
 
-![Framework](paper/framework.pdf)
+![Framework](paper/framework.png)
 ---
 
 ## Installation
